@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" build-on-make="true" name="book_hut:Web exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/book_hut_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="book_hut/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="book_hut" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: jstl:jstl:1.2" />
+          <element id="library" level="project" name="Maven: org.modelmapper:modelmapper:1.1.0" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
